@@ -165,7 +165,7 @@ class Receipt{
         println("${this.total}")
     }
 
-    // print out the receipt 
+    // print out the receipt
     fun printReceipt(){
         println("${this.shopperName}")
         println("${this.storeName}")
