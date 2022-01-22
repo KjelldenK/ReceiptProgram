@@ -1,6 +1,7 @@
 import java.util.*
 import java.io.FileWriter
 import java.io.File
+
 // this will allow you to read user input as ints doubles and others
 val read = Scanner(System.`in`)
 
@@ -16,7 +17,7 @@ fun main(){
         print("\n What would you like to do? ")
 
         when(read.nextInt()){
-            // when the user picks to add an item to there cart it this will open the file and check to see if the
+            // when the user picks to add an item to their cart it this will open the file and check to see if the
             // item they are adding is new or not.
             1 ->{
                 var newItem = true
@@ -129,7 +130,7 @@ class Receipt{
         println("\nYour total is: $${this.total}")
         var balance: Double = this.budget - this.total
         if (balance > 0){
-            println("You are $$balance above budget!")
+            println("You are $$balance under budget!")
         }else if(balance < 0){
             println("You are $$balance over budget...")
         }else{
@@ -158,11 +159,7 @@ class Receipt{
         var cost:Double = (itemPrice * howMany)
         this.totalCostOfItem.add(cost)
         this.total = (this.total + cost)
-        println("${this.itemList}")
-        println("${this.priceList}")
-        println("${this.numberOfItems}")
-        println("${this.totalCostOfItem}")
-        println("${this.total}")
+
     }
 
     // print out the receipt
