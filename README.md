@@ -16,7 +16,7 @@ Tool #2: I used was java.util this tool allows you to take user input that is no
 
 Tool #3: I used intellij this is what I used to code in.
 
-{Describe the programming language that you used and any libraries.}
+
 
 The programing language that I picked to code in for this project is Kotlin. Kotlin is a mix 
 between java and python. According to articles that I found this language is used for android device.
@@ -24,7 +24,7 @@ It is a fun language to code it but there are more steps than coding in python.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
+
 * [W3 School](https://www.w3schools.com/kotlin/index.php)
 * [YouTube full kotlin course](https://www.youtube.com/watch?v=F9UC9DY-vIU&t=2002s)
 
